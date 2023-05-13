@@ -18,9 +18,9 @@ header {
     width: 100%;
     align-items: center;
     display: flex;
-    padding: 1px 50px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+    padding: 0px 50px 0px 124px;
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
 }
 
 nav{
@@ -49,11 +49,52 @@ nav ul li {
 
 nav ul li a {
     color: #757575;
-    font-size: medium;
+    font-size: 16px;
     font-weight: 500;
     padding: 5px 17px;
 }
 
 nav ul li a.txt {
     color: #299E63;
+}
+
+main .hero-container {
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 224px;
+    margin: 80px 0px 80px 0px;
+    padding-left: 124px;
+    align-items: center;
+}
+
+main .hero-section {
+    width: 650px;
+    padding: 0px 0px;
+
+}
+
+.hero-head {
+    font-size: 44px;
+    font-weight: 700;
+    color: #0A0A0A;
+}
+
+.hero-description {
+    color: #757575;
+    padding-top: 24px;
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    text-align: justify;
+}
+
+.text-color {
+    color: #299E63;
+}
+
+main .hero-rectangle {
+    width: 50px;
+    height: 96px;
+    background: #299E63;
+    left: 0;
+    top: 100px;
 }
