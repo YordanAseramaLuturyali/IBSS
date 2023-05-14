@@ -62,9 +62,10 @@ main .hero-container {
     width: 100%;
     background-color: #F5F5F5;
     height: 224px;
-    margin: 80px 0px 80px 0px;
+    margin: 80px 0 80px;
     padding-left: 124px;
     align-items: center;
+    position: relative;
 }
 
 main .hero-section {
@@ -96,5 +97,6 @@ main .hero-rectangle {
     height: 96px;
     background: #299E63;
     left: 0;
-    top: 100px;
+    top: 16px;
+    position: absolute;
 }
