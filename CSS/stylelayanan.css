@@ -248,7 +248,7 @@ nav ul li a:hover::after {
     font-size: 20px;
     font-weight: 600;
     margin: 0 0 24px;
-    
+
 }
 
 .articles .cara-mendirikan-bank-sampah .description {
@@ -392,7 +392,8 @@ footer .logo {
     position: absolute;
     margin: 20px 0px 0px 124px;
 }
-footer .text-color{
+
+footer .text-color {
     color: #299E63;
 }
 
@@ -420,14 +421,6 @@ footer .logo img {
     line-height: 28px;
     letter-spacing: -0.017em;
 }
-
-.footer-nav ul li a:hover {
-    color: #fff;
-    background-color: #299E63;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-2px);
-    transition: all 900ms cubic-bezier(.23, 1, 0.32, 1);
-   }
 
 .copyright {
     justify-content: center;
