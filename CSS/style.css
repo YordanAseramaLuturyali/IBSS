@@ -557,11 +557,11 @@ footer .logo img {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: -0.017em;
-  padding: 10px;
+  padding: 10px 15px 10px;
   border-radius: 5px;
 }
 
-/* .footer-nav ul li a:hover {
+.footer-nav ul li a:hover {
   color: #fff;
   background-color: #299E63;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
@@ -572,7 +572,7 @@ footer .logo img {
  .footer-nav ul li a:active {
   box-shadow: none;
   transform: translateY(0);
- } */
+ }
 
 .copyright {
   justify-content: center;
