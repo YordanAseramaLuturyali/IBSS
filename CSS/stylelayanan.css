@@ -24,6 +24,7 @@ header {
     padding: 0px 50px 0px 124px;
     background-color: #FFF;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+    z-index: 999;
 }
 
 nav {
@@ -128,6 +129,9 @@ nav ul li a:hover::after {
     color: #757575;
     padding: 12px 24px;
     outline: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #0a0a0a;
 }
 
 .hero #icon-search {
@@ -157,7 +161,7 @@ nav ul li a:hover::after {
 .articles .pengertian-bank-sampah .heading {
     color: #0a0a0a;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 0 24px;
 }
 
@@ -166,6 +170,8 @@ nav ul li a:hover::after {
     line-height: 20px;
     color: #404040;
     width: 700px;
+    font-weight: 500;
+    transform: rotate(-0.03deg);
 }
 
 .articles .tujuan-bank-sampah {
@@ -175,7 +181,7 @@ nav ul li a:hover::after {
 .articles .tujuan-bank-sampah .heading {
     color: #0a0a0a;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 0 24px;
 }
 
@@ -184,6 +190,8 @@ nav ul li a:hover::after {
     line-height: 20px;
     color: #404040;
     width: 700px;
+    font-weight: 500;
+    transform: rotate(-0.03deg);
 }
 
 .articles .manfaat-bank-sampah {
@@ -193,7 +201,7 @@ nav ul li a:hover::after {
 .articles .manfaat-bank-sampah .heading {
     color: #0a0a0a;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 0 24px;
 }
 
@@ -202,6 +210,7 @@ nav ul li a:hover::after {
     line-height: 20px;
     color: #404040;
     width: 700px;
+    transform: rotate(-0.03deg);
 }
 
 .articles .alur-bank-sampah {
@@ -212,20 +221,21 @@ nav ul li a:hover::after {
 .articles .alur-bank-sampah .heading {
     color: #0a0a0a;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 0 24px;
 }
 
 .articles .alur-bank-sampah .subheading {
     color: #0a0a0a;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: -0.011em;
 }
 
 .articles .alur-bank-sampah .description {
     font-size: 14px;
     line-height: 20px;
-    color: #404040;
+    color: #616161;
     width: 700px;
 }
 
@@ -236,8 +246,9 @@ nav ul li a:hover::after {
 .articles .cara-mendirikan-bank-sampah .heading {
     color: #0a0a0a;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 0 24px;
+    
 }
 
 .articles .cara-mendirikan-bank-sampah .description {
@@ -262,20 +273,20 @@ nav ul li a:hover::after {
 .articles .struktur-bank-sampah .heading {
     color: #0a0a0a;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 0 24px;
 }
 
 .articles .struktur-bank-sampah .subheading {
     color: #0a0a0a;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .articles .struktur-bank-sampah .description {
     font-size: 14px;
     line-height: 20px;
-    color: #404040;
+    color: #616161;
     width: 700px;
 }
 
