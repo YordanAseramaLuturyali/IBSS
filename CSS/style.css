@@ -395,13 +395,17 @@ main .hero-rectangle {
 
 /*Card-Slider*/
 .card-slider {
-  flex-direction: row;
   display: flex;
+  overflow-x: auto;
   margin-left: 122px;
-  width: auto;
   text-align: left;
   color: #0a0a0a;
 }
+
+.card-slider::-webkit-scrollbar {
+  display: none;
+}
+
 
 .card .card-text {
   margin-right: 6px;
@@ -430,7 +434,7 @@ main .hero-rectangle {
   border-radius: 0px 20px;
   display: inline-block;
   position: relative;
-  margin-right: 8px;
+  margin-right: 12px;
 }
 
 .card-slider .card:hover {
@@ -455,13 +459,13 @@ main .hero-rectangle {
 }
 
 .card-text .card-description {
+  width: 222px;
   color: #616161;
   margin-right: 10px;
   text-align: left;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: -0.006em;
 }
 
 .card-text>.icon {
