@@ -7,6 +7,8 @@
     <title>Informasi Bank Sampah Semarang</title>
     <link rel="stylesheet" href="../CSS/stylelayanan.css">
 
+    <link rel="shortcut icon" href="/IBSS/aset/Logo-IBSS.png" type="image/x-icon">
+
     <!--Boxicon CSS-->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 
@@ -23,8 +25,8 @@
         <nav>
             <a href="#" class="logo"><img src="../aset/Logo-IBSS.png" alt="Logo"></a>
             <ul>
-                <li><a class="txt" href="#">Beranda</a></li>
-                <li><a href="#">Tentang Kami</a></li>
+                <li><a class="txt" href="/IBSS/index.html">Beranda</a></li>
+                <li><a href="../HTML/tentangkami.html">Tentang Kami</a></li>
                 <li><a href="#">Layanan</a></li>
                 <li><a href="#">Kontak Kami</a></li>
             </ul>
@@ -61,7 +63,7 @@
     <div class="container-articles-sidebar">
         <!-- Articles -->
         <article id="articles" class="articles">
-            <section class="pengertian-bank-sampah">
+            <section class="pengertian-bank-sampah" id="pengertian-bank-sampah">
                 <h1 class="heading">Pengertian Bank Sampah</h1>
                 <p class="description">Bank Sampah adalah suatu tempat yang digunakan untuk mengumpulkan sampah yang
                     sudah
@@ -76,7 +78,7 @@
                     sampah ini diharapkan mampu membantu pemerintah dalam menangani sampah dan meningkatkan ekonomi
                     masyarakat.</p>
             </section>
-            <section class="tujuan-bank-sampah">
+            <section class="tujuan-bank-sampah" id="tujuan-bank-sampah">
                 <h1 class="heading">Tujuan Bank Sampah</h1>
                 <p class="description">Tujuan utama pendirian bank sampah adalah untuk membantu menangani pengolahan
                     sampah dan tujuan bank sampah selanjutnya adalah untuk menyadarkan masyarakat akan lingkungan yang
@@ -96,7 +98,7 @@
                     uang sekolah menggunakan sampah.
                 </p>
             </section>
-            <section class="manfaat-bank-sampah">
+            <section class="manfaat-bank-sampah" id="manfaat-bank-sampah">
                 <h1 class="heading">Manfaat Bank Sampah</h1>
                 <p class="description">Bank sampah memiliki beberapa manfaat bagi manusia dan lingkungan hidup, seperti
                     membuat lingkungan lebih bersih, menyadarkan masyarakat akan pentingnya kebersihan, dan membuat
@@ -120,7 +122,7 @@
                     menerapkan pembayaran uang sekolah menggunakan sampah.
                 </p>
             </section>
-            <section class="alur-bank-sampah">
+            <section class="alur-bank-sampah" id="alur-bank-sampah">
                 <h1 class="heading">Alur Kerja Bank Sampah</h1>
                 <p class="description">Alur kerja Bank Sampah melibatkan beberapa tahapan yang saling berkaitan. Berikut
                     adalah alur kerja Bank Sampah</p>
@@ -173,7 +175,7 @@
                     Sampah yang bisa dibuat untuk kerajinan akan dibuat kerajinan oleh tim kreatif.
                 </p>
             </section>
-            <section class="cara-mendirikan-bank-sampah">
+            <section class="cara-mendirikan-bank-sampah" id="cara-mendirikan-bank-sampah">
                 <h1 class="heading">Cara Mendirikan Bank Sampah</h1>
                 <p class="description">Cara mendirikan bank sampah dapat dilakukan melalui 8 langkah sebagai berikut</p>
                 <br>
@@ -209,7 +211,7 @@
                         style="color: #0A0a0a; font-size: 16px; margin: 0 24px 0 0; font-weight: 500;">Langkah 8</span>
                     Sosialisasi Bank Sampah ke masyarakat. </p>
             </section>
-            <section class="struktur-bank-sampah">
+            <section class="struktur-bank-sampah" id="struktur-bank-sampah">
                 <h1 class="heading">Struktur Organisasi Bank Sampah</h1>
                 <p class="description">Cara mendirikan bank sampah dapat dilakukan melalui 8 langkah sebagai berikut</p>
                 <br>
@@ -264,13 +266,13 @@
         <aside class="sidebar" id="sidebar">
             <h1 class="heading">Table Of Content</h1>
             <ul>
-                <li><a href="" class="links">Pengertian Bank Sampah</a></li>
-                <li><a href="" class="links">Tujuan Bank Sampah</a></li>
-                <li><a href="" class="links">Manfaat Bank Sampah</a></li>
-                <li><a href="" class="links">Alur Kerja Bank Sampah</a></li>
-                <li><a href="" class="links">Cara Mendirikan Bank Sampah</a></li>
-                <li><a href="" class="links">Struktur Organisasi Bank Sampah</a></li>
-                <li><a href="" class="links">Lokasi Bank Sampah Semarang</a></li>
+                <li><a href="#pengertian-bank-sampah" class="links">Pengertian Bank Sampah</a></li>
+                <li><a href="#tujuan-bank-sampah" class="links">Tujuan Bank Sampah</a></li>
+                <li><a href="#manfaat-bank-sampah" class="links">Manfaat Bank Sampah</a></li>
+                <li><a href="#alur-bank-sampah" class="links">Alur Kerja Bank Sampah</a></li>
+                <li><a href="#cara-mendirikan-bank-sampah" class="links">Cara Mendirikan Bank Sampah</a></li>
+                <li><a href="#struktur-bank-sampah" class="links">Struktur Organisasi Bank Sampah</a></li>
+                <li><a href="#location" class="links">Lokasi Bank Sampah Semarang</a></li>
             </ul>
             <img src="../aset/vec.png" alt="">
         </aside>
@@ -314,9 +316,151 @@
                         Jl. Bukit Raya Timur I, Sumurboto, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50269</p>
                 </div>
             </div>
+            <div class="bank-sampah">
+                <div class="image-section"><img src="../aset/gambar_lokasi(2).png" alt=""></div>
+                <div class="description-section">
+                    <h2 class="heading">Bank Sampah Gedawang Asri</h2>
+                    <div class="ratings">
+                        <span style="color: #0A0a0a; font-size: 16px; font-weight: 500;">5.0</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <span style="color: #0A0a0a; font-size: 16px; font-weight: 500;">(5)</span>
+                    </div>
+                    <p class="addres">Jl. Bukit Raya Timur I, Sumurboto, Kec. Banyumanik, Kota Semarang, Jawa Tengah
+                        50269</p>
+                </div>
+            </div>
+            <div class="bank-sampah">
+                <div class="image-section"><img src="../aset/gambar_lokasi(3).png" alt=""></div>
+                <div class="description-section">
+                    <h2 class="heading">Bank Sampah Guyub Rukun</h2>
+                    <div class="ratings">
+                        <span style="color: #0A0a0a; font-size: 16px; font-weight: 500;">5.0</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <span style="color: #0A0a0a; font-size: 16px; font-weight: 500;">(4)</span>
+                    </div>
+                    <p class="addres">Jl. Kp. Blusuk, Kemijen, Kec. Semarang Timur, Kota Semarang, Jawa Tengah 50228</p>
+                </div>
+            </div>
+            <div class="bank-sampah">
+                <div class="image-section"><img src="../aset/gambar_lokasi(4).png" alt=""></div>
+                <div class="description-section">
+                    <h2 class="heading">Bank Sampah Mawar</h2>
+                    <div class="ratings">
+                        <span style="color: #0A0a0a; font-size: 16px; font-weight: 500;">5.0</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <span style="color: #0A0a0a; font-size: 16px; font-weight: 500;">(46)</span>
+                    </div>
+                    <p class="addres">Jl. Patemon No.50, Patemon, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50228</p>
+                </div>
+            </div>
+            <div class="bank-sampah">
+                <div class="image-section"><img src="../aset/gambar_lokasi(5).png" alt=""></div>
+                <div class="description-section">
+                    <h2 class="heading">Thematic Kampung Hijau Peduli Sampah</h2>
+                    <div class="ratings">
+                        <span style="color: #0A0a0a; font-size: 16px; font-weight: 500;">5.0</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#EEB211"
+                                d="m12 17.3l-3.7 2.825q-.275.225-.6.213t-.575-.188q-.25-.175-.387-.475t-.013-.65L8.15 14.4l-3.625-2.575q-.3-.2-.375-.525t.025-.6q.1-.275.35-.488t.6-.212H9.6l1.45-4.8q.125-.35.388-.538T12 4.475q.3 0 .563.188t.387.537L14.4 10h4.475q.35 0 .6.213t.35.487q.1.275.025.6t-.375.525L15.85 14.4l1.425 4.625q.125.35-.012.65t-.388.475q-.25.175-.575.188t-.6-.213L12 17.3Z" />
+                        </svg>
+                        <span style="color: #0A0a0a; font-size: 16px; font-weight: 500;">(3)</span>
+                    </div>
+                    <p class="addres">Jl. Purwogondo I No.279, Dadapsari, Kec. Semarang Utara, Kota Semarang, Jawa
+                        Tengah 50173</p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Akhir Lokasi Bank Sampah -->
+    <!--Footer-->
+    <footer>
+        <div class="logo"><a href="#"><img src="../aset/Logo-IBSS.png" alt="Logo"></a></div>
+        <div class="footer-nav">
+            <ul>
+                <li><a class="text-color" href="#">Beranda</a></li>
+                <li><a class="text-color" href="#">Layanan</a></li>
+                <li><a class="text-color" href="#">Tentang Kami</a></li>
+                <li><a class="text-color" href="#">Kontak Kami</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>Copyright IBSS, All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
 </body>
 
 </html>

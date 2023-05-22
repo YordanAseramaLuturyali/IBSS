@@ -49,6 +49,11 @@ nav ul li {
   margin: 0px 7px;
 }
 
+nav ul li a:hover {
+  color: #299E63;
+}
+
+
 nav ul li a {
   color: #757575;
   font-size: 16px;
@@ -277,7 +282,7 @@ main .hero-rectangle {
   opacity: 1;
 }
 
-.btn-1:hover > .icon {
+.btn-1:hover>.icon {
   transform: translateX(30%);
   animation: none;
 }
@@ -439,7 +444,7 @@ main .hero-rectangle {
   box-shadow: 4px 4px 0 var(--cardShadowActive);
 }
 
-.card-text > .card-title {
+.card-text>.card-title {
   margin: 20px 0px 12px 0px;
   padding: 0px;
   font-weight: 600;
@@ -459,13 +464,13 @@ main .hero-rectangle {
   letter-spacing: -0.006em;
 }
 
-.card-text > .icon {
+.card-text>.icon {
   width: 48px;
   height: 48px;
   margin: -10px 0px 15px -10px;
 }
 
-.card > .link {
+.card>.link {
   margin-bottom: 24px;
   color: var(--linkColor);
   font-size: 0.8em;
